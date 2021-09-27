@@ -20,13 +20,13 @@ import "firebase/database";
 //   appId: "1:1030464690306:web:c9277dad598d85501a7c9b"
 // });
 const devConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  databaseURL: process.env.REACT_APP_DATABASE_URL,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyCvmfOevirM5wgM8_3uuAyqftlityaxGBM",
+  authDomain: "milestoneproj-blog-f9323.firebaseapp.com",
+  projectId: "milestoneproj-blog-f9323",
+  storageBucket: "milestoneproj-blog-f9323.appspot.com",
+  databaseURL: "https://blog-page-ae323-default-rtdb.firebaseio.com",
+  messagingSenderId: "658542546992",
+  appId: "1:658542546992:web:df0291130fad76f7f39df5",
 };
 const prodConfig = {};
 const firebaseConfig = process.env.NODE_ENV === "development" ? devConfig : prodConfig;
